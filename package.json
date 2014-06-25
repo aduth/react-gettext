@@ -1,0 +1,38 @@
+{
+  "name": "react-gettext",
+  "version": "0.1.0",
+  "author": "Andrew Duthie <andrew@andrewduthie.com>",
+  "description": "React components for gettext-based internationalization",
+  "main": "react-gettext.js",
+  "bin": {
+    "react-xgettext": "./bin/react-xgettext.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aduth/react-gettext"
+  },
+  "devDependencies": {
+    "browserify-shim": "^3.6.0",
+    "gulp": "^3.8.1",
+    "gulp-browserify": "^0.5.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-util": "^2.2.17",
+    "reactify": "^0.13.1"
+  },
+  "browserify-shim": {
+    "jed": "global:Jed",
+    "react": "global:React"
+  },
+  "browserify": {
+    "transform": [
+      "reactify",
+      "browserify-shim"
+    ]
+  },
+  "dependencies": {
+    "envify": "^1.2.1",
+    "jed": "^0.5.4",
+    "react": "^0.10.0",
+    "xgettext-js": "^0.1.0"
+  }
+}
