@@ -1,6 +1,6 @@
 {
   "name": "react-gettext",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Andrew Duthie <andrew@andrewduthie.com>",
   "description": "React components for gettext-based internationalization",
   "main": "./src/react-gettext.js",
