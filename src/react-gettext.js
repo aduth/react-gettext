@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 var Jed = require( 'jed' ),
 	React = require( 'react' ),
 	localeData, i18n;

@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "author": "Andrew Duthie <andrew@andrewduthie.com>",
   "description": "React components for gettext-based internationalization",
-  "main": "react-gettext.js",
+  "main": "./src/react-gettext.js",
   "bin": {
     "react-xgettext": "./bin/react-xgettext.js"
   },
@@ -17,7 +17,6 @@
     "gulp": "^3.8.1",
     "gulp-rename": "^1.2.0",
     "gulp-util": "^2.2.17",
-    "reactify": "^0.13.1",
     "vinyl-source-stream": "^0.1.1"
   },
   "browserify-shim": {
